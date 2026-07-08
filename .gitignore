@@ -2,3 +2,9 @@
 History/
 __Previews/
 Project Logs*/
+
+# Local Altium library and project metadata files
+uc3842.SchLib
+UC3842分立项目.PcbLib
+UC3842分立项目.PrjPcb
+UC3842分立项目.PrjPcbStructure
