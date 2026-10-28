@@ -8,3 +8,24 @@ uc3842.SchLib
 UC3842分立项目.PcbLib
 UC3842分立项目.PrjPcb
 UC3842分立项目.PrjPcbStructure
+
+# Exclude all Altium libraries and their backup copies.
+*.[Pp][Cc][Bb][Ll][Ii][Bb]*
+*.[Ss][Cc][Hh][Ll][Ii][Bb]*
+*.[Ii][Nn][Tt][Ll][Ii][Bb]*
+*.[Dd][Bb][Ll][Ii][Bb]*
+*.[Ss][Vv][Nn][Dd][Bb][Ll][Ii][Bb]*
+*.[Ll][Ii][Bb][Pp][Kk][Gg]*
+
+# Only schematics, PCB documents and PDFs belong in this source snapshot.
+/电流镜/**
+!/电流镜/**/
+!/电流镜/**/*.[Ss][Cc][Hh][Dd][Oo][Cc]
+!/电流镜/**/*.[Pp][Cc][Bb][Dd][Oo][Cc]
+!/电流镜/**/*.[Pp][Dd][Ff]
+/电流镜/**/History/
+/电流镜/**/__Previews/
+/电流镜/**/Project Logs*/
+/电流镜/**/Backup/
+/电流镜/**/Backups/
+/电流镜/**/*.~*

@@ -1,0 +1,4 @@
+# Preserve original schematic, PCB and PDF bytes.
+*.[Ss][Cc][Hh][Dd][Oo][Cc] binary
+*.[Pp][Cc][Bb][Dd][Oo][Cc] binary
+*.[Pp][Dd][Ff] binary
